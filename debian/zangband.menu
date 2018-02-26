@@ -1,0 +1,6 @@
+?package(zangband):needs="text" section="Games/Adventure" \
+  hints="Roguelike,Dungeon" \
+  title="Zangband" \
+  longtitle="Zangband - a single-player, text-based, roguelike game" \
+  icon="/usr/share/pixmaps/zangband.xpm" \
+  command="/usr/games/zangband"
