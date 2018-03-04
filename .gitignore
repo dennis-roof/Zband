@@ -1,0 +1,5 @@
+lib/apex/*.raw
+lib/data/*.raw
+src/*.c
+src/*.o
+src/lua/*.o
