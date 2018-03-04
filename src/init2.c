@@ -214,19 +214,23 @@ void init_file_paths(char *path)
 
 	/* Build a path name */
 	strcpy(tail, "apex");
-	ANGBAND_DIR_APEX = string_make("/var/games/zangband/apex");
+	//ANGBAND_DIR_APEX = string_make("/var/games/zangband/apex");
+	ANGBAND_DIR_APEX = string_make("./lib/apex");
 
 	/* Build a path name */
 	strcpy(tail, "bone");
-	ANGBAND_DIR_BONE = string_make("/var/games/zangband/bone");
+	//ANGBAND_DIR_BONE = string_make("/var/games/zangband/bone");
+	ANGBAND_DIR_BONE = string_make("./lib/bone");
 
 	/* Build a path name */
 	strcpy(tail, "data");
-	ANGBAND_DIR_DATA = string_make("/var/games/zangband/data");
+	//ANGBAND_DIR_DATA = string_make("/var/games/zangband/data");
+	ANGBAND_DIR_DATA = string_make("./lib/data");
 
 	/* Build a path name */
 	strcpy(tail, "save");
-	ANGBAND_DIR_SAVE = string_make("/var/games/zangband/save");
+	//ANGBAND_DIR_SAVE = string_make("/var/games/zangband/save");
+	ANGBAND_DIR_SAVE = string_make("./lib/save");
 
 #endif /* USE_PRIVATE_PATHS */
 
